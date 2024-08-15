@@ -5,17 +5,28 @@
 		<TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
 		<RuntimeIdentifiers>win-x86;win-x64;win-arm64</RuntimeIdentifiers>
 		<UseWinUI>true</UseWinUI>
-		<Authors>Howon Lee</Authors>
-		<Copyright>Howon Lee © 2024</Copyright>
-		<PackageProjectUrl>https://github.com/airtaxi/VideoFrameToWriteableBitmap</PackageProjectUrl>
-		<PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
-		<PackageTags>WinUI Video WriteableBitmap RTSP FFmpeg</PackageTags>
-		<Description>VideoFrameToWriteableBitmap is a utility that facilitates the decoding of raw video frames (H.264, MJPEG, and more) and renders them into a WriteableBitmap within a WinUI application using FFmpeg.AutoGen version 7.0 (FFmpeg 7.0 dlls are required). Useful for scenarios like decoding frames from an RTSP stream is required.</Description>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<Authors>Howon Lee</Authors>
+		<Copyright>Howon Lee © 2024</Copyright>
+		<PackageTags>WinUI Video WriteableBitmap RTSP FFmpeg</PackageTags>
+		<Description>VideoFrameToWriteableBitmap is a utility that facilitates the decoding of raw video frames (H.264, MJPEG, and more) and renders them into a WriteableBitmap within a WinUI application using FFmpeg.AutoGen version 7.0 (FFmpeg 7.0 dlls are required). Useful for scenarios like decoding frames from an RTSP stream is required.</Description>
+		<PackageProjectUrl>https://github.com/airtaxi/VideoFrameToWriteableBitmap</PackageProjectUrl>
+		<PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<IncludeSymbols>True</IncludeSymbols>
 		<Version>1.0.0</Version>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="FFmpeg.AutoGen" Version="7.0.0" />
