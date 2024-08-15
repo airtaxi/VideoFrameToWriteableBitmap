@@ -1,5 +1,5 @@
 # VideoFrameToWriteableBitmap
-[![NuGet version (DetoursCustomDPI)](https://img.shields.io/nuget/v/DetoursCustomDPI.svg?style=flat-square)](https://www.nuget.org/packages/DetoursCustomDPI/)
+[![NuGet version (DetoursCustomDPI)](https://img.shields.io/nuget/v/VideoFrameToWriteableBitmap.svg?style=flat-square)](https://www.nuget.org/packages/VideoFrameToWriteableBitmap/)
 
 `VideoFrameToWriteableBitmap` is a library that uses FFmpeg.AutoGen to decode video frames and display them in a `WriteableBitmap` for WinUI applications. This library is designed to handle video codecs like H.264 and supports the processing and rendering of video frame data asynchronously to avoid blocking the UI thread.
 
