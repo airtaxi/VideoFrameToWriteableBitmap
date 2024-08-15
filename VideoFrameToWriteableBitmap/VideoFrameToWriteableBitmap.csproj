@@ -13,7 +13,7 @@
 		<PackageTags>WinUI Video WriteableBitmap RTSP FFmpeg</PackageTags>
 		<Description>VideoFrameToWriteableBitmap is a utility that facilitates the decoding of raw video frames (H.264, MJPEG, and more) and renders them into a WriteableBitmap within a WinUI application using FFmpeg.AutoGen version 7.0 (FFmpeg 7.0 dlls are required). Useful for scenarios like decoding frames from an RTSP stream is required.</Description>
 		<PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
-		<RepositoryUrl>https://github.com/airtaxi/DetoursCustomDPI</RepositoryUrl>
+		<RepositoryUrl>https://github.com/airtaxi/VideoFrameToWriteableBitmap</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
