@@ -20,7 +20,7 @@ The `FrameDecoder` class is responsible for decoding video frames using a specif
 // Initialize the decoder with the desired codec (e.g., H264)
 var frameDecoder = new FrameDecoder(AVCodecID.AV_CODEC_ID_H264);
 
-// Feed the decoder with raw video data (full NAL units for H264)
+// Feed the decoder with raw video data (first frame to feed must be a full NAL unit (I frame) for H264)
 bool success = frameDecoder.Feed(frameData);
 
 if (success)

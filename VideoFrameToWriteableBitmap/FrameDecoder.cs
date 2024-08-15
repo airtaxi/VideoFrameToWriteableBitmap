@@ -69,7 +69,7 @@ public unsafe class FrameDecoder : IDisposable
 
     /// <summary>
     /// Feed the decoder with a new frame. (Using RtspClientSharp is recommended)
-    /// (IMPORTANT) If codec is H264, the frame must be a full NAL unit (I frame). Otherwise, the decoder will not work.
+    /// (IMPORTANT) If codec is H264, the first frame to feed must be a full NAL unit (I frame). Otherwise, the decoder will not work.
     /// </summary>
     /// <param name="data"> The frame data. </param>
     /// <returns> True if the frame is successfully decoded. </returns>
