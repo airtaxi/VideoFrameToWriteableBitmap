@@ -40,6 +40,10 @@ It's important to properly dispose of `FrameDecoder` objects to free unmanaged r
 frameDecoder.Dispose();
 ```
 
+
+## Author
+`이호원 (Howon Lee) a.k.a hoyo321 or kck4156, airtaxi`
+
 ## License
 
 This project is licensed under the LGPL 3.0 License. See the [LICENSE](LICENSE.txt) file for more details.
